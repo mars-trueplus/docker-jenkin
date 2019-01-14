@@ -10,7 +10,7 @@ pipeline {
             steps {
                 sh 'apache2 -V'
                 sh 'php -v'
-                sh 'ls -lah /etc/php'
+                sh 'ls -lah /etc/php7'
             }
         }
     }
